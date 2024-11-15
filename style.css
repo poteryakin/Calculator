@@ -31,6 +31,8 @@ body {
     padding-bottom: 45px;
     padding-top: 45px;
     border-radius: 5px;
+    text-align: center;
+    font-size: x-large;
 }
 
 .line {
@@ -43,13 +45,31 @@ body {
 }
 
 .button {
+    display: flex;
+    align-items: center;
     flex-direction: column;
     padding: 20px;
     background-color: #b76b2a8f;
     border-radius: 100px;
-    width: 4%;
+    width: 15%;
     text-align: center;
-    font-weight: 10px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.button_number {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    background-color: #b76b2a8f;
+    border-radius: 100px;
+    width: 15%;
+    text-align: center;
+    border: none;
+    outline: none;
+    cursor: pointer;
 }
 
 .button-0 {
@@ -57,7 +77,9 @@ body {
     padding: 20px;
     background-color: #b76b2a8f;
     border-radius: 100px;
-    width: 33%;
+    width: 43%;
     text-align: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
 }
-
