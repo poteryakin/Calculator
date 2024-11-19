@@ -32,7 +32,9 @@ body {
     padding-top: 45px;
     border-radius: 5px;
     text-align: center;
-    font-size: x-large;
+    font-size: clamp(10px, 5vw, 20px);
+    overflow: hidden;
+    height: 12px;
 }
 
 .line {
